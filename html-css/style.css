@@ -1,0 +1,43 @@
+p {
+  color: red;
+}
+
+div {
+  color: blue;
+}
+
+p + div {
+  color: green;
+}
+
+#p3 { 
+  font-size: 30pt;
+}
+
+div.shift {
+  transform: translateX(20px);
+}
+
+#hoverbutton {
+  padding: 20px;
+  font-size: 25pt;
+  background-color: tan;
+  color: navy;
+  width: 100px;
+  margin: 20px;
+  box-shadow: 5px 5px 5px grey;
+  transition: 1s;
+}
+
+#hoverbutton:hover {
+  transform: translate(-5px, -5px);
+  transition: 0.8s;
+  box-shadow: 10px 10px 10px grey;
+}
+
+
+#hoverbutton:active {
+  transform: translate(3px, 3px);
+  transition: 0.2s;
+  box-shadow: 2px 2px 2px grey;
+}
